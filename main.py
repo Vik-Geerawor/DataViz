@@ -1,4 +1,4 @@
-import mpl_squares as mpl
+import generating_data as mpl
 
 
 def print_hi(name):
