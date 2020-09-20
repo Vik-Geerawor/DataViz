@@ -1,7 +1,4 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import mpl_squares as mpl
 
 
 def print_hi(name):
@@ -9,8 +6,12 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
+def run_mpl():
+    # mpl.show_squares()
+    mpl.show_scatter_squares()
+
+
 if __name__ == '__main__':
     print_hi('PyCharm')
+    run_mpl()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
