@@ -3,6 +3,7 @@ import generating_data as mpl
 from random_walk import *
 from die_visual import *
 from highs_lows import *
+from world_population import *
 
 
 def print_hi(name):
@@ -49,5 +50,7 @@ if __name__ == '__main__':
     # run_mpl()
     # run_random_walk()
     # run_die()
-    run_highs_lows()
+    # run_highs_lows()
+    # run_world_population()
+    show_intl_countries()
 
