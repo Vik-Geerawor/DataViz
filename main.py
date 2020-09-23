@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import generating_data as mpl
 from random_walk import *
+from die_visual import *
+from highs_lows import *
 
 
 def print_hi(name):
@@ -16,7 +18,7 @@ def run_mpl():
 def run_random_walk():
     while True:
         # Make a random walk and plot the points
-        rw = RandomWalk(50000)
+        rw = RandomWalk(5000)
         rw.fill_walk()
 
         # Set the size of the plotting window
@@ -45,5 +47,7 @@ def run_random_walk():
 if __name__ == '__main__':
     # print_hi('PyCharm')
     # run_mpl()
-    run_random_walk()
+    # run_random_walk()
+    # run_die()
+    run_highs_lows()
 
