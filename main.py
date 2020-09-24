@@ -51,6 +51,8 @@ if __name__ == '__main__':
     # run_random_walk()
     # run_die()
     # run_highs_lows()
-    # run_world_population()
-    show_intl_countries()
+    run_world_population()
+    # americas()
+
+
 
